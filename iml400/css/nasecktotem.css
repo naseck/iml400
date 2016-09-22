@@ -1,0 +1,605 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#vrahas-cage{
+	width: 300px;
+	height: 300px;
+	background: aliceblue;
+	border-radius: 50px;
+	position: absolute;
+}
+#vrahas-neck{
+	width:20px;
+	height: 30px;
+	background: rgb(80,147,145);
+	position: absolute;
+	top: 25px;
+	left: 137px;
+}
+
+#vrahas-head{
+	width: 50px;
+	height: 30px;
+	background: rgb(80,147,145);
+	-moz-border-radius: 25px / 12.5px;
+	-webkit-border-radius: 25px / 12.5px;
+	border-radius: 25px / 12.5px;
+	transform: rotate(90deg);
+	position: absolute;
+	top: 13px;
+	left: 122px;
+}
+
+#vrahas-shell{
+	width: 200px;
+	height: 150px;
+	background: skyblue;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform: rotate(90deg);
+
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+
+#vrahas-shellInner{
+	width: 180px;
+	height: 130px;
+	background: rgb(59,127,125);
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform: rotate(90deg);
+
+	position: absolute;
+	top: 90px;
+	left: 60px;
+}
+
+#vrahas-hex1{
+	position: absolute;
+	top: 150px;
+	left: 160px;
+}
+#hex2{
+	position: absolute;
+	top: 122px;
+	left: 142px;
+}
+
+#vrahas-hex3{
+	position: absolute;
+	top: 94px;
+	left: 160px;
+}
+
+#vrahas-hex4{
+	position: absolute;
+	top: 212px;
+	left: 154px;
+}
+
+#vrahas-hex5{
+	position: absolute;
+	top: 212px;
+	left: 117px;
+}
+
+#vrahas-hex6{
+	position: absolute;
+	top: 184px;
+	left: 99px;
+}
+
+#vrahas-hex7{
+	position: absolute;
+	top: 122px;
+	left: 105px;
+}
+
+
+.vrahas-hexagon{
+	width: 33.33px;
+	height: 16.66px;
+	position: absolute;
+	background-color: rgb(80,147,145);
+	color: rgb(80,147,145);
+}
+
+.vrahas-hexagon:before {
+	content: "";
+	position: absolute;
+	top: -8.33px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 16.66px solid transparent;
+	border-right: 16.66px solid transparent;
+	border-bottom: 8.33px solid;
+}
+.vrahas-hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -8.33px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 16.66px solid transparent;
+	border-right: 16.66px solid transparent;
+	border-top: 8.33px solid;
+}
+.vrahas-eye{
+	width: 10px;
+	height: 10px;
+	background: rgb(200,200,200);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#vrahas-eyeL{
+	position: absolute;
+	top: 7px;
+	left: 132px;
+}
+
+#vrahas-eyeR{
+	position: absolute;
+	top: 7px;
+	left: 151px;
+}
+
+
+.vrahas-leg1{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 50px solid;
+	color: rgb(80,147,145);
+}
+.vrahas-leg2{
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 50px solid;
+	color: rgb(80,147,145);
+}
+
+#vrahas-frontR{
+	position: absolute;
+	top: 16px;
+	left: 184px;
+	transform: rotate(30deg);
+}
+
+#vrahas-frontL{
+	position: absolute;
+	top: 16px;
+	left: 85px;
+	transform: rotate(-30deg);
+}
+
+#vrahas-backR{
+	position: absolute;
+	top: 245px;
+	left: 91px;
+	transform: rotate(200deg);
+}
+
+#vrahas-backL{
+	position: absolute;
+	top: 245px;
+	left: 184px;
+	transform: rotate(160deg);
+}
+
+
+
+/*I've set my tiger on the center, but if you'd like to place it elsewhere, 
+just change the padding left or top according to your liking*/
+#yedamkim-container {
+    width: 300px;
+	height: 300px;
+	margin-top:350px;
+    margin-left:75px;
+}
+
+.yedamkim-shape {
+	padding-top:100px;
+	padding-left: 550px;
+    position:absolute;
+    
+    
+	
+	
+}
+
+#yedamkim-atiger {
+	position:absolute;
+    
+}
+
+
+#yedamkim-triangle-down {
+	width: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 110px solid #b37700;
+	margin-top: -70px;
+	margin-left:0px;
+}
+
+
+#yedamkim-mouth {
+	width: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 5px solid black;
+	margin-top: -45px;
+	margin-left: 50px;
+}
+
+#yedamkim-nose {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 10px solid #4d1a00;
+	margin-top: -15px;
+	margin-left: 50px;
+}
+
+#yedamkim-nose2 {
+	width: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 35px solid #b35900;
+	margin-top: -45px;
+	margin-left: 50px;
+}
+
+#yedamkim-whiteeyebrows {
+		width: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-bottom: 30px solid white;
+	margin-top: -50px;
+	margin-left: 30px;
+}
+
+
+#yedamkim-whiteeyebrows2 {
+		width: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-bottom: 30px solid white;
+	margin-top: -30px;
+	margin-left: 80px;
+}
+
+
+
+
+#yedamkim-trapezoid {
+	border-bottom: 30px solid #b37700;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 100px;
+	margin-top: -63px;
+}
+
+#yedamkim-leftear {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 50px solid #e6e6e6;
+	border-bottom: 20px solid transparent;
+	margin-top: -44px;
+	margin-left:0px;
+}
+
+
+#yedamkim-leftear2 {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid black;
+	border-right: 30px solid transparent;
+	margin-top: -40px;
+	margin-left:20px;
+}
+
+#yedamkim-leftear3 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid black;
+	border-left: 30px solid transparent;
+	margin-top: -10px;
+	margin-left:-9px;
+}
+
+
+#yedamkim-rightear {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 50px solid #e6e6e6;
+	border-bottom: 20px solid transparent;
+	margin-top: -35px;
+	margin-left: 90px;
+}
+
+
+#yedamkim-rightear2 {
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid black;
+	border-left: 30px solid transparent;
+	margin-top: -10px;
+	margin-left:90px;
+}
+
+
+#yedamkim-rightear3 {
+	width: 0;
+	height: 0;
+	border-top: 10px solid black;
+	border-right: 30px solid transparent;
+	margin-top: -10px;
+	margin-left: 120px;
+}
+
+#yedamkim-lefteye {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 6px solid black;
+	margin-top: 50px;
+	margin-left: 36px;
+}
+
+
+#yedamkim-righteye {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 6px solid black;
+	margin-top: -5px;
+	margin-left: 86px;
+}
+
+
+#yedamkim-leftcheek {
+	width: 0;
+	height: 0;
+	border-top: 70px solid transparent;
+	border-right: 80px solid #ffaa00;
+	border-bottom: 30px solid transparent;
+	margin-top: -30px;
+	margin-left: -35px;
+}
+
+
+#yedamkim-rightcheek {
+	width: 0;
+	height: 0;
+	border-top: 70px solid transparent;
+	border-left: 80px solid #ffaa00;
+	border-bottom: 30px solid transparent;
+	margin-top: -100px;
+	margin-left: 95px;
+}
+
+
+#yedamkim-stripes {
+	width: 70px;
+	height: 2px;
+	background: black;
+	margin-top: -50px;
+	margin-left:35px;
+}
+
+
+#yedamkim-stripes2 {
+	width: 50px;
+	height: 2px;
+	background: black;
+	margin-top: 5px;
+	margin-left:45px;
+}
+#container {
+  position:absolute;
+  width: 800px; 
+  overflow: scroll; 
+}
+
+#case {
+  position: relative; 
+  display: inline-block;
+  max-width: 400px;
+  min-width: 400px; 
+  height: 400px; 
+  float: left; 
+  margin: 5px; 
+  border-radius: 40%; 
+  background-color: orange;
+}
+#tammydo_beak {
+  position: absolute; 
+  top: 190px;
+  left: 190px;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid green;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#tammydo_pupil_L {
+  position: absolute; 
+  left: 38.5%; 
+  top: 44%; 
+  width: 30px;
+	height: 30px;
+	background: #003153 ;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#tammydo_pupil_R {
+  position: absolute;
+  top: 44%;
+  left: 54%;
+  width: 30px;
+	height: 30px;
+	background: #003153;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#tammydo_eye_L {
+  position: absolute; 
+  top: 40%; 
+  left: 200px;
+}
+
+#tammydo_eye_R {
+  position: absolute;
+  top: 40%;
+  left: 140px;
+}
+
+#tammydo_eye_L, #tammydo_eye_R{
+  width: 60px;
+  height: 60px;
+  background: silver; 
+  -moz-border-radius: 50px;
+   -webkit-border-radius: 50px;
+  border-radius:50px; 
+}
+
+#tammydo_Owlbody {
+  position: absolute;
+  top: 200px;
+  left: 120px; 
+  width: 0px;
+  height: 0px;
+  border-left: 80px   solid transparent;
+  border-right: 80px   solid transparent;
+  border-top: 100px   solid blue;
+  -moz-border-radius: 60%;
+  -webkit-border-radius: 60%;
+  border-radius: 60%;
+}
+
+#tammydo_leg_L {
+  background-color: #003153 ; 
+ width: 10px;
+	height: 40px;
+  position: absolute;
+  top: 260px;
+  left: 185px; 
+}
+
+#tammydo_leg_R {
+  background-color: #003153; 
+ width: 10px;
+	height: 40px;
+   position: absolute;
+  top: 260px;
+  left: 205px; 
+	background: 
+}
+
+#tammydo_wing_L {
+  position: absolute; 
+  top: 200px;
+  left: 140px; 
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 100px solid blue;
+  background-color: #003153; 
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#tammydo_wing_R {
+  position: absolute; 
+  top: 200px;
+  left: 225px; 
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 100px solid blue;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  
+}
+
+#tammydo_head {
+    position: absolute;
+  top: 120px; 
+  left: 135px; 
+  	width: 130px;
+	height: 125px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#tammydo_foot_L {
+  width: 0;
+  height:0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid green;
+  position: absolute;
+  top:-50px; 
+}
+
+#tammydo_foot_L {
+  content: '';
+  position: absolute;
+  left: 200px; top: 300px;
+  width:0;
+  height:0;
+  border: 10px solid transparent;
+  border-top:10px solid green; 
+}
+
+#tammydo_foot_R {
+  width: 0;
+  height:0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid green;
+  position: absolute;
+  top:-50px; 
+}
+
+#tammydo_foot_R {
+  content: '';
+  position: absolute;
+  left: 180px; top: 300px;
+  width:0;
+  height:0;
+  border: 10px solid transparent;
+  border-top:10px solid green; 
+}

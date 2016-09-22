@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="Spirit Animal">
+  <title>Naseck Totem</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/nasecktotem.css">
+</head>
+<body>
+  <div id="cage">
+    <div id="vrahas-neck"></div>
+    <div id="vrahas-head"></div>
+    <div class="vrahas-eye" id="vrahas-eyeL"></div>
+    <div class="vrahas-eye" id="vrahas-eyeR"></div>
+    <div class="vrahas-leg1" id="vrahas-frontR"></div>
+    <div class="vrahas-leg2" id="vrahas-frontL"></div>
+    <div class="vrahas-leg2" id="vrahas-backR"></div>
+    <div class="vrahas-leg1" id="vrahas-backL"></div>
+    <div id="vrahas-shell"></div>
+    <div id="vrahas-shellInner"></div>
+    <div id="vrahas-pattern">
+      <div id="vrahas-hex1"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex2"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex3"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex4"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex5"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex6"><div class="vrahas-hexagon"></div></div>
+      <div id="vrahas-hex7"><div class="vrahas-hexagon"></div></div>
+    </div>
+    
+  </div>
+  <script text="text/javascript">
+    mvrahasChangeAnimal_1("yellow")
+      /*This function changes the outer border of the shell to a color of your choice 
+    
+    */
+    function mvrahasChangeAnimal_1(hue) {
+      var $shell = document.getElementById("vrahas-shell")
+      $shell.style.backgroundColor = hue
+    }
+    mvrahasChangeAnimal_2("green")
+    
+      /*This function changes the hexogons on the shell to a color of your choice 
+    
+    */
+    function mvrahasChangeAnimal_2(hue) {
+      var $hexagon = document.getElementsByClassName("vrahas-hexagon")
+      console.log($hexagon.length)
+      for(i=0 ; i<$hexagon.length ; i++){
+      $hexagon[i].style.backgroundColor = hue
+      $hexagon[i].style.color = hue
+    }
+    
+    }
+    mvrahasChangeAnimal_3(7)
+    /*This function makes the turtle scared, and his head goes into his shell as far as you want.
+    
+    */
+    function mvrahasChangeAnimal_3(shift){
+      var $eyeL = document.getElementById("vrahas-eyeL")
+      var $eyeR = document.getElementById("vrahas-eyeR")
+      var $neck = document.getElementById("vrahas-neck")
+      var $head = document.getElementById("vrahas-head")
+      console.log($eyeL)
+      $eyeL.style.transform = 'translateY('+shift+'px)'; 
+      $eyeR.style.transform = 'translateY('+shift+'px)';
+      $neck.style.transform = 'translateY('+shift+'px)';
+      $head.style.transform = 'translateY('+shift+'px) rotate(90deg)';
+    } 
+      
+    
+  </script>
+  
+  <div id = "yedamkim-container">
+				
+
+					<div id="yedamkim-rightear"></div>
+					<div id="yedamkim-leftear"></div>
+					<div id="yedamkim-leftcheek"></div>
+					<div id="yedamkim-rightcheek"></div>
+					<div id="yedamkim-triangle-down"></div>
+					<div id="yedamkim-mouth"></div>
+					<div id="yedamkim-nose"></div>
+					<div id="yedamkim-nose2"></div>
+					<div id="yedamkim-whiteeyebrows"></div>
+					<div id="yedamkim-whiteeyebrows2"></div>
+					<div id="yedamkim-trapezoid"></div>
+					<div id="yedamkim-leftear2"></div>
+					<div id="yedamkim-leftear3"></div>
+					<div id="yedamkim-rightear2"></div>
+					<div id="yedamkim-rightear3"></div>
+					<div id="yedamkim-lefteye"></div>
+					<div id="yedamkim-righteye"></div>
+					<div id="yedamkim-stripes"></div>
+					<div id="yedamkim-stripes2"></div>
+					</div>
+
+
+
+<script text = "text/javascript">
+    /*This function changes the tiger's stripe colors */
+				function yedamkim_ChangeAnimal_1(){
+				var $topStripe = document.getElementById("yedamkim-stripes")
+				var $bottomStripe = document.getElementById("yedamkim-stripes2")
+	$topStripe.style.backgroundColor = "brown" /*change the color here! Delete black and add your own*/
+	$bottomStripe.style.backgroundColor = "brown" /*change the color here! Delete black and add your own*/
+	}
+	
+	yedamkim_ChangeAnimal_1() 
+	/*This function gives my tiger a nose job*/
+				function yedamkim_ChangeAnimal_2(shift){
+				var $nose = document.getElementById("yedamkim-nose")
+				var $nose2 = document.getElementById("yedamkim-nose2")
+				
+				console.log($nose)
+			      $nose.style.transform = 'translateY('+shift+'px)'; 
+			      $nose2.style.transform = 'translateY('+shift+'px)'; 
+	}
+	yedamkim_ChangeAnimal_2(3)
+	/*yedamkim_ChangeAnimal_2(1) */ /*UNCOMMENT THE FUNCTION TO MAKE IT WORK. change your number thats inside the parenthesis! negative goes up, positive goes down.*/
+	/* This function adds a mustache to my tiger*/
+				function yedamkim_ChangeAnimal_3(){
+				var $mouth = document.getElementById("yedamkim-mouth")
+	$mouth.style.backgroundColor = "orange" /*change the color here!*/
+	}
+	yedamkim_ChangeAnimal_3(-4)
+	/*yedamkim_ChangeAnimal_3() */ /*uncomment this function to see it work.*/
+</script>
+
+<div id="case">
+  
+<section id="tammydo_leg_L">
+</section>
+  
+<section id="tammydo_leg_R">
+</section>
+
+  <section id="tammydo_Owlbody"></section>
+
+<section id="tammydo_wing_L"></section>
+  
+<section id="tammydo_wing_R"></section>
+
+<section id="tammydo_ear_L"></section>
+  <section class="tammydo_ear_R"></section> 
+  
+<section id="tammydo_head"></section> 
+
+<section id="tammydo_beak">
+  </section> 
+  
+<section id="tammydo_eye_L"></section> 
+
+  <section id="tammydo_eye_R"></section>
+ 
+<section id="tammydo_pupil_L"></section>
+  
+<section id="tammydo_pupil_R"></section>  
+
+  <section id="tammydo_foot_L"></section>
+
+<section id="tammydo_foot_R"></section>
+
+</div> 
+
+<script type="text/javascript" src="js/main.js">
+    
+// var Beakcolor = BeakColor // 
+    
+    
+function tammydoChangeAnimal_1 (BeakColor) {
+    var $beak = document.getElementByID("tammydo_beak")
+    
+    $beak.style.backgroundcolor = BeakColor
+}
+//   Uncomment this to run the function and change the Beak color
+//     tammydoChangeAnimal_1( "rgb(	0,100,0)" )
+    
+    
+    
+// var EyeColor = EyeColor
+    
+function tammydoChangeAnimal_2 (EyeColor) {
+    var $pupil_L = document.getElementById("tammydo_pupil_L")
+    var $pupil_R = document.geELementById("tammydo_pupil_R")
+    
+    $pupil_L.style.backgroundColor = EyeColor
+    $pupil_R.style.backgroundColor = EyeColor
+}
+//Uncomment this to run the function and change the pupil color
+ tammydoChangeAnimal_2("rgb(50,20,120)")
+    
+    
+// var BodyColor = BodyColor
+    
+function tammydoChangeAnimal_3 (BodyColor) {
+    var $OwlBody = document.getElementById("tammydo_Owlbody")
+    
+    $OwlBody.style.backgroundColor = BodyColor
+}
+//Uncomment this to run the function and change the Owl Body color
+// tammydoChangeAnimal_3 ("rgb(	0,0,205)")
+    
+</script>
+</body>

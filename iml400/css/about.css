@@ -140,3 +140,142 @@ main p
     padding-right:15px;
     
 }
+
+
+#deer {
+    position:relative; 
+    margin: 0 auto 0 auto;
+    height: 300px;
+    width: 300px;  
+    
+}
+
+#naseck-ear-R {
+    position:absolute;
+    top:60px;
+    left:15px;
+	width: 100px;
+	height: 50px;
+	background: sandybrown;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+    transform:rotate(40deg);
+}
+
+#naseck-ear-L {
+    position:absolute;
+    top:60px;
+    left:185px;
+	width: 100px;
+	height: 50px;
+	background: sandybrown;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+    transform:rotate(-40deg);
+}
+
+#naseck-earinside-R {
+    position:absolute;
+    top:70px;
+    left:25px;
+	width: 70px;
+	height: 30px;
+	background: brown;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+    transform:rotate(40deg);
+}
+
+#naseck-earinside-L {
+    position:absolute;
+    top:70px;
+    left:205px;
+	width: 70px;
+	height: 30px;
+	background: brown;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+    transform:rotate(-40deg);
+}
+
+
+#naseck-head {
+   position:absolute;
+    left:82px;
+    top:90px;
+   width: 136px;
+   height: 180px;
+   background-color: sandybrown;
+   -webkit-border-radius: 63x 63px 33px 33px / 8px 18px 2px 2px;
+   border-radius:         80%  80%  120%  120%  / 80%   80%   170%  170%;
+}
+
+#naseck-nose {
+  position: absolute;
+top:210px;
+    left:127px;
+  width: 45px;
+  height: 30px;
+  margin: 20px 0;
+  background: brown;
+  border-radius: 20% / 80%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+
+#naseck-eye-L {
+    position:absolute;
+    left:100px;
+    top:140px;
+	width: 30px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform:rotate(0deg);
+}
+
+#naseck-eye-R {
+    position:absolute;
+    left:165px;
+    top:140px;
+	width: 30px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform:rotate(0deg);
+}
+
+#naseck-pupil-L {
+    position:absolute;
+    left:110px;
+    top:145px;
+	width: 10px;
+	height: 10px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform:rotate(0deg);
+}
+
+#naseck-pupil-R {
+    position:absolute;
+    left:175px;
+    top:145px;
+	width: 10px;
+	height: 10px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	transform:rotate(0deg);
+}

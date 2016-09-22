@@ -21,6 +21,7 @@
         <h3><a href="../index.html">Home</a></h3>
         <h3><a href="about.html">About/Spirit Animal</a></h3>
         <h3><a href="week2flow.html">Week 2 Flow Charts</a></h3>
+        <h3><a href="nasecktotem.html">Totem</a></h3>
     </header>
 </nav>
 
@@ -35,12 +36,73 @@ Besides taking this class as a MAP requirement, I think that this class will be 
     </p>
 
 <div id="deer">
-					<div id="head"></div>
-					<div id="neck"></div>
-					<div id="body"></div>
-					<div id="leg1"></div>
-					<div id="leg2"></div>
-    </div>
+					<div id="naseck-head"></div>
+					<div id="naseck-nose"></div>
+					<div id="naseck-eye-L"></div>
+					<div id="naseck-eye-R"></div>
+					<div id="naseck-pupil-L"></div>
+					<div id="naseck-pupil-R"></div>
+					<div id="naseck-ear-R"></div>
+					<div id="naseck-ear-L"></div>
+					<div id="naseck-earinside-R"></div>
+					<div id="naseck-earinside-L"></div>
+		</div>
+    
+
+
+<script text="text/javascript">
+	console.log('this is working...')
+
+	  function naseckEyeColor_1( myColor ) {
+
+      	var $pupil_L = document.getElementById( "naseck-pupil-L" )
+      	var $pupil_R = document.getElementById( "naseck-pupil-R" )  
+      
+      	$pupil_L.style.backgroundColor = myColor
+      	$pupil_R.style.backgroundColor = myColor
+    }
+
+    //naseckEyeColor_1("black")//
+
+      function naseckChangeEar_1( myHeight, myInsideHeight) {
+
+      	
+      	var $earinside_L = document.getElementById( "naseck-earinside-L" )
+      	var $earinside_R = document.getElementById( "naseck-earinside-R" )
+      	var $ear_L = document.getElementById( "naseck-ear-L" )
+      	var $ear_R = document.getElementById( "naseck-ear-R" ) 
+
+      	$ear_L.style.height = myHeight
+      	$ear_R.style.height = myHeight
+
+      	$earinside_L.style.height = myInsideHeight
+      	$earinside_R.style.height = myInsideHeight  
+
+      	//naseckChangeEar_1("40px", "20px")	//
+    }
+
+    
+    function naseckEvilEye_1( myAngle ) {  
+
+      	var $pupil_L = document.getElementById( "naseck-pupil-L" )
+      	var $pupil_R = document.getElementById( "naseck-pupil-R" )
+      	var $eye_L = document.getElementById( "naseck-eye-L" )
+      	var $eye_R = document.getElementById( "naseck-eye-R" )    
+      
+    
+
+      	$pupil_L.style.transform = myAngle
+      	$pupil_R.style.transform = myAngle
+      	$eye_L.style.transform = myAngle
+      	$eye_R.style.transform = myAngle
+
+      	//naseckEvilEye_1("rotate(40deg)//"
+    }
+
+
+
+</script>
+
   </main>
    
 
