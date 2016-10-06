@@ -1,0 +1,22 @@
+undefined
+var album = "https://api.spotify.com/v1/artists/77tT1kLj6mCWtFNqiOmP9H/albums"
+
+
+
+
+undefined
+result
+Object {href: "https://api.spotify.com/v1/artists/77tT1kLj6mCWtFN…album_type=single,album,compilation,appears_on,ep", items: Array[20], limit: 20, next: "https://api.spotify.com/v1/artists/77tT1kLj6mCWtFN…album_type=single,album,compilation,appears_on,ep", offset: 0…}
+var albumcount =0;
+
+var albumName = result.items[albumcount].name
+
+if(albumcount < 21) {
+albumName
+albumcount=albumcount+1
+
+}
+
+1
+albumName
+"Live in Dublin"

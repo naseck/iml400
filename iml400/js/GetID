@@ -1,0 +1,17 @@
+undefined
+var searchURL = "https://api.spotify.com/v1/search";
+
+var params = {q: "", type:""}
+params.q = "'hall & oates'"
+params.type = 'artist'
+
+$.get(searchURL,params).done(allGood).fail(allBad)
+var artistId = result.artists.items[0].id // shoudl be equal to: 6zFYqv1mOsgBRQbae3JJ9e
+
+$.get("https://api.spotify.com/v1/artists/" + artistId).done(allGood).fail(allBad)
+Object {readyState: 1}
+ got some good 'ol data..mmmm , mmm, good!!
+result
+Object {external_urls: Object, followers: Object, genres: Array[12], href: "https://api.spotify.com/v1/artists/77tT1kLj6mCWtFNqiOmP9H", id: "77tT1kLj6mCWtFNqiOmP9H"…}
+artistId
+"77tT1kLj6mCWtFNqiOmP9H"
