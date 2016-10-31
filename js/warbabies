@@ -1,0 +1,33 @@
+undefined
+var searchURL = "https://api.spotify.com/v1/search";
+
+var params = {q: "", type:""}
+params.q = "'war babies'"
+params.type = 'album'
+
+$.get(searchURL,params).done(allGood).fail(allBad)
+var album = result.albums.items[0].id // shoudl be equal to: 6zFYqv1mOsgBRQbae3JJ9e
+
+$.get("https://api.spotify.com/v1/albums/" + album).done(allGood).fail(allBad)
+Uncaught TypeError: Cannot read property 'items' of undefined(…)
+ got some good 'ol data..mmmm , mmm, good!!
+var searchURL = "https://api.spotify.com/v1/search";
+
+var params = {q: "", type:""}
+params.q = "'war babies'"
+params.type = 'album'
+
+$.get(searchURL,params).done(allGood).fail(allBad)
+var album = result.albums.items[0].id // shoudl be equal to: 6zFYqv1mOsgBRQbae3JJ9e
+
+$.get("https://api.spotify.com/v1/albums/" + album).done(allGood).fail(allBad)
+Object {readyState: 1}
+ got some good 'ol data..mmmm , mmm, good!!
+result
+Object {album_type: "album", artists: Array[1], available_markets: Array[60], copyrights: Array[2], external_ids: Object…}
+result.artists[0]
+Object {external_urls: Object, href: "https://api.spotify.com/v1/artists/77tT1kLj6mCWtFNqiOmP9H", id: "77tT1kLj6mCWtFNqiOmP9H", name: "Daryl Hall & John Oates", type: "artist"…}
+result.name
+"War Babies"
+result.images[0]
+Object {height: 640, url: "https://i.scdn.co/image/fc2a49f835775a4b167299572b90611304bda15a", width: 640}
